@@ -26,11 +26,13 @@ final class getUserFilmVotes extends \nSolutions\API\Methods
    /**
     * Dane zwrócone przez filmweba
     */
-    protected $_response_keys =
-    [
+    protected $_response_keys = [
         'filmId',
         'date',
-        'vote'
+        'vote',
+        'fav',
+        'comment',
+        'type',
     ];
     
     protected function prepare()
